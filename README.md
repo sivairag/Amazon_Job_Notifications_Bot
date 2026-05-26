@@ -230,13 +230,6 @@ sudo systemctl status amazon-jobs-bot
 sudo journalctl -u amazon-jobs-bot -f
 ```
 
----
-
-## Security Note
-
-Keep your `config.json` private. It contains your Telegram bot token — do not commit it to a public repository or share it publicly.
-
----
 
 ## License
 
