@@ -1,0 +1,11 @@
+# Sensitive config — contains Telegram bot token, never commit this
+config.json
+
+# Auto-generated files
+seen_jobs.db
+bot.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

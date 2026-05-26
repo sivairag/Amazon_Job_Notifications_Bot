@@ -1,0 +1,25 @@
+{
+    "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "chat_ids": [
+        "YOUR_TELEGRAM_USER_ID",
+        "@your_channel_username"
+    ],
+    "check_interval_seconds": 60,
+    "playwright_interval_seconds": 300,
+    "sources": {
+        "amazon_jobs_api": true,
+        "jobsatamazon_uk": true
+    },
+    "filters": {
+        "keywords": [],
+        "location": ""
+    },
+    "amazon_jobs_api": {
+        "result_limit": 100,
+        "country": "GBR",
+        "warehouse_categories": [
+            "Fulfillment & Operations Management",
+            "Amazon Logistics, Transportation, & Shipment"
+        ]
+    }
+}
